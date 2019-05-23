@@ -1,0 +1,81 @@
+/* CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica , Arial;
+}
+
+header {
+	height: 80px;
+	background-color: #333333;
+	padding: 20px;
+
+}
+
+footer {
+	height: 30px;
+	background-color: #333333;
+	clear: both;
+	text-align: center;
+	padding: 10px 0px 0px 5px;         /* Quando inseridos os quatro valores, ele assume o primeiro sendo como top, o segundo right... */
+	color: white;
+}
+
+h1 {
+	color: #FFF;  
+	text-align: center;
+	margin: 0 0 30px 0;   
+	text-shadow: 1px 1px 1px orange;  /* Primeiro valor é a distância pra direita, segundo é pra baixo, terceiro é dispersão 
+										e quarto é a cor da sombra */                 
+}
+
+body {
+	background-color: #000;
+}
+
+p {
+	color: white;
+}
+
+#div_principal {
+	background-color: #999999;
+	background-image: url('hackers.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 600px;
+	padding: 50px 0 0 0;
+	clear: both;
+}
+
+#logo_imagem {
+	width: 10%;
+	float: left;
+}
+
+#menu {
+	float: right;
+	margin-top: 20px;
+}
+
+#menu a {								  /* Estamos definindo um estilo para todas as tags "a" do elemento de id "menu" */
+	text-decoration: none;                /* Text decoration é o sublinhado do link */
+	color: black;
+	text-shadow: 1px 1px 1px white;
+	margin: 15px;						  /* Distancia de um link para o outro */
+}
+
+#menu a:hover {							  /* Definindo um estilo para uma propriedade das tags "a" do elemento de id "menu" */
+	background-color: #111;
+	color: white;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.efeito {
+	background-color: rgba(0,0,0,0.5);     /* Cria uma caixa preta transparente no elemento */
+	padding: 20px;
+}

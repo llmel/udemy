@@ -1,0 +1,17 @@
+/* CSS */
+
+* {                       /* Este estilo garante que nenhuma margem será inserida automaticamente pelo navegador */
+	margin: 0 ;
+	padding: 0 ;
+}
+
+body {
+	color: #FAB072;
+	background-color: black;
+	font-family: Helvetica, Arial;   /* A fonte helvética é a mais utilizada pelos designers. */
+}
+
+p {
+	color: red;
+	font-size: 90px;
+	font-family: "Comic Sans MS";      /* Por padrão, a fonte do navegador é Times New Roman */

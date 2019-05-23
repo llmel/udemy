@@ -1,0 +1,36 @@
+/* CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: green;
+	height: 100px;					/* Só definir a altura e o cabeçalho fica visível */
+}
+
+footer {
+	clear: both;				/* Sempre que utilizarmos o atributo float, devemos colocar o atributo "clear:both" no elemento seguinte */
+	background-color: blue;
+	height: 30px;
+}
+
+#div_esquerda {
+	background-color: red;
+	min-height: 200px;
+	width: 60%;
+	float: left;                    /* Propriedade usada para colocar uma div do lado da outra */
+}
+
+#div_direita {
+	background-color: yellow;
+	min-height: 200px;
+	width: 40%;
+	float: right;					/* Propriedade usada para colocar uma div do lado da outra */
+}
+
+.container {
+	width: 960px;					/* Não preciso declarar altura em container porque ajusta de acordo com o conteúdo */
+	margin: auto;                   /* As margens são ajustadas automaticamente de acordo com a largura */
+}
