@@ -1,0 +1,11 @@
+comando: git help <comando>
+
+git init - cria um repositorio na pasta atual.
+
+git init <nome_do_repositorio> - cria uma pasta e transforma ela em repositorio.
+
+git status - mostra se há alguma alteração que não está commitada.
+
+git log - mostra o histórico de commits do repositório: quem fez, quando e a mensagem de commit.
+
+
