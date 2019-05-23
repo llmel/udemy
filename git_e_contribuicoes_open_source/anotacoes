@@ -5,10 +5,13 @@ Após criar um repositório local, precisamos linkar ele a um repositorio remoto
 	git remote add origin git@github.com:llmel/udemy.git
 	git push -u origin master
 
-Escolhido comunicação SSH.
+(Escolhido comunicação SSH).
 
 
 
 md é uma extensão de arquivo chamada 'mark down'. Readme.md é um arquivo que controla a aparência do seu repositório no servidor (github,gitlab).
 
+
+
+o comando git push é sempre rejeitado se houver commits remotos a mais que o seu repositório local. Você precisará dar git pull antes do push.
 
