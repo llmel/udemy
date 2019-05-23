@@ -1,0 +1,14 @@
+site oficial: https://git-scm.com
+
+Após criar um repositório local, precisamos linkar ele a um repositorio remoto (github). Só entrar no site do servidor de repositórios escolhido, criar o repositorio e seguir os comandos mostrados. No caso, os comandos foram estes:
+
+	git remote add origin git@github.com:llmel/udemy.git
+	git push -u origin master
+
+Escolhido comunicação SSH.
+
+
+
+md é uma extensão de arquivo chamada 'mark down'. Readme.md é um arquivo que controla a aparência do seu repositório no servidor (github,gitlab).
+
+
