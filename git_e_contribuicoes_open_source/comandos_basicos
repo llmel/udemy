@@ -10,6 +10,27 @@ git log - mostra o histórico de commits do repositório: quem fez, quando e a m
 
 git config --global core.editor <editor_de_texto> - define qual editor de texto será usado para escrever as mensagens (commit,etc).
 
+git diff - exibe diferenças entre commits e branchs.
+	EX: git diff HEAD~1 - Compara o estado atual do repositório com o penúltimo commit realizado.
+
+git add / git commit / git push / git clone / git pull - todos praticados na faculdade.
+
+git checkout <numero_do_commit> - Volta o repositório para um commit específico. 
+git checkout -- <path_or_file> - Desfaz as alterações que ainda não estão na staged area (git add).
+git checkout HEAD -- <path_or_file> - Desfaz as alterações, mesmo que já estejam na staged area (git add).
+
+git revert <numero_do_commit> - Cria um novo commit, inverso ao commit indicado. Se o commit indicado adicionou uma linha, o novo irá deletar.
+
+git reset <numero_do_commit> - Desfaz o commit e remove da staged area, mas não deleta as alterações.
+git reset --hard <numero_do_commit> - Desfaz o commit e deleta as alterações.
+
+--end 
+
+
+
+
+
+
 
 
 
