@@ -25,6 +25,10 @@ HEAD é um apontador que aponta para o último commit do repositório. HEAD~1 ut
 GIT EYE - Interface gráfica útil para diferenciar commits e navegar no histórico de commits.
 
 Fazendo prática para resolução de conflitos em merge.
-Vamos ver o que acontece.
+
+Branch - Lista de commits, representa ramificações no repositório.
+'git checkout' serve tanto para trocar de commit quanto de branch (conjunto de commits).
+'Origin' refere-se ao repositório remoto ; 'Master' refere-se ao repositório local.
+
 
 -- end

@@ -24,6 +24,10 @@ git revert <numero_do_commit> - Cria um novo commit, inverso ao commit indicado.
 git reset <numero_do_commit> - Desfaz o commit e remove da staged area, mas não deleta as alterações.
 git reset --hard <numero_do_commit> - Desfaz o commit e deleta as alterações.
 
+git branch - mostra todas as branchs do repositório.
+git branch <nome_branch> - Cria uma nova branch.
+git branch -d <nome_branch> - Exclui uma branch
+
 --end 
 
 
