@@ -28,6 +28,8 @@ git branch - mostra todas as branchs do repositório.
 git branch <nome_branch> - Cria uma nova branch.
 git branch -d <nome_branch> - Exclui uma branch
 
+git merge <branch> - Aplica os commits de uma branch na branch atual. Encontra um commit comum (base) entre as branchs e aplica todos os commits que a branch atual não possui. Caso existam commits na branch atual que não estão na outra, será criado um commit de merge.
+
 --end 
 
 
