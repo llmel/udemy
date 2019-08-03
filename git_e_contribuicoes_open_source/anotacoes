@@ -30,6 +30,8 @@ Branch - Lista de commits, representa ramificações no repositório.
 'git checkout' serve tanto para trocar de commit quanto de branch (conjunto de commits).
 'Origin' refere-se ao repositório remoto ; 'Master' refere-se ao repositório local.
 
+git merge e git rebase são parecidos. O que muda é a ordem de aplicação dos commits. No git merge, se houver algum commit na branch atual que não existe na branch 'mergeada', é criado um commit de merge, que é mostrado na árvore do 'network graph'. Já no git rebase, a ramificação desaparece, e as branchs ficam indicadas no mesmo ponto, igual o merge sem commit a mais na branch atual.
+
 
 -- end
 

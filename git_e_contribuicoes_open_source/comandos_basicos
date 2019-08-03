@@ -30,6 +30,8 @@ git branch -d <nome_branch> - Exclui uma branch
 
 git merge <branch> - Aplica os commits de uma branch na branch atual. Encontra um commit comum (base) entre as branchs e aplica todos os commits que a branch atual não possui. Caso existam commits na branch atual que não estão na outra, será criado um commit de merge (caso contrário, a network graph indica as duas branchs no mesmo ponto).
 
+git rebase <branch> - Os commits a frente da base (commit comum) na sua branch atual são removidos, os commits da branch indicada são aplicados na branch atual e os commits que estavam a frente da base na branch atual são aplicados um a um.
+
 --end 
 
 
