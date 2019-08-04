@@ -32,6 +32,8 @@ Branch - Lista de commits, representa ramificações no repositório.
 
 git merge e git rebase são parecidos. O que muda é a ordem de aplicação dos commits. No git merge, se houver algum commit na branch atual que não existe na branch 'mergeada', é criado um commit de merge, que é mostrado na árvore do 'network graph'. Já no git rebase, a ramificação desaparece, e as branchs ficam indicadas no mesmo ponto.
 
+OBS: o comando git pull, é uma junção do fetch com o merge. (pull = fetch + merge).
+
 
 -- end
 
