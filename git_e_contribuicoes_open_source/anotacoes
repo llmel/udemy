@@ -34,6 +34,8 @@ git merge e git rebase são parecidos. O que muda é a ordem de aplicação dos 
 
 OBS: o comando git pull, é uma junção do fetch com o merge. (pull = fetch + merge).
 
+git tags são marcadores de versão (releases). São semelhantes às branchs, mas não admitem mais commits.
+
 
 -- end
 

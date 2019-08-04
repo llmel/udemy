@@ -24,7 +24,7 @@ git revert <numero_do_commit> - Cria um novo commit, inverso ao commit indicado.
 git reset <numero_do_commit> - Desfaz o commit e remove da staged area, mas não deleta as alterações.
 git reset --hard <numero_do_commit> - Desfaz o commit e deleta as alterações.
 
-git branch - mostra todas as branchs do repositório.
+git branch - Mostra todas as branchs do repositório.
 git branch <nome_branch> - Cria uma nova branch.
 git branch -d <nome_branch> - Exclui uma branch
 
@@ -33,6 +33,9 @@ git merge <branch> - Aplica os commits de uma branch na branch atual. Encontra u
 git rebase <branch> - Os commits a frente da base (commit comum) na sua branch atual são removidos, os commits da branch indicada são aplicados na branch atual e os commits que estavam a frente da base na branch atual são aplicados um a um.
 
 git fetch - Baixa as atualizações do repositório remoto mas não aplica no repositório local. Para aplicar após o fetch, necessário fazer o git rebase.
+
+git tag - Mostra todas as tags do repositório.
+git tag <nome_tag> - Cria uma nova tag.
 
 --end 
 
