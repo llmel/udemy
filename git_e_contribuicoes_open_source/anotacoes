@@ -37,6 +37,19 @@ OBS: o comando git pull, é uma junção do fetch com o merge. (pull = fetch + m
 git tags são marcadores de versão (releases). São semelhantes às branchs, mas não admitem mais commits.
 
 
+Fazer fork é copiar o repositório de alguém para o seu usuário. Qualquer repositório no github pode ser feito fork.
+
+Issues é algo da rede social Github, não da ferramenta git. 
+	Permitem organizar tarefas, bugs a serem corrigidos, melhorias a serem feitas, etc.
+	Podem ter o status alterado a partir de commits. Na mensagem de commit, colocamos 'Closes #1'. O
+	número é o identificador da issue.
+
+Pull request é semelhante ao issue, pois cria um tópico de discussão e uma análise. É utilizado principalmente
+quando fazemos fork e queremos contribuir com algum projeto. Mas também é utilizado para merge entre branchs de
+um mesmo repositório.
+Quando você é dono do repositório e quer verificar um pull request, você faz um fetch do pull request em uma nova branch,
+verifica a alteração realizada, e se concordar, aceita o pull request, e então o git faz um merge.
+
 -- end
 
 
