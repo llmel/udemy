@@ -13,6 +13,8 @@ git config --global core.editor <editor_de_texto> - define qual editor de texto 
 git diff - exibe diferenças entre commits e branchs.
 	EX: git diff HEAD~1 - Compara o estado atual do repositório com o penúltimo commit realizado.
 
+git diff master origin/master - comparar diferenças entre repositório local e repositório remoto.
+
 git add / git commit / git push / git clone / git pull - todos praticados na faculdade.
 
 git checkout <numero_do_commit> - Volta o repositório para um commit específico. 
